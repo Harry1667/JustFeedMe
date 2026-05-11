@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Keys / secrets
+*.key
+*.pem
+id_rsa
+
+# Node
+node_modules/
+dist/
+build/
+
+# Flutter / Dart (root level)
+**/doc/api/
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/build/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Misc
+*.log
+*.swp
+.history
