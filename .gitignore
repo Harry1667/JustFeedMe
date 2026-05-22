@@ -37,3 +37,14 @@ build/
 *.log
 *.swp
 .history
+# === Private dev notes (git-safety) ===
+9_run.MD
+9_run.md
+0-run.md
+0-runset.md
+9-talk.md
+2-talk.md
+1_dev.MD
+001-deploy-docs/
+10-deploy-docs/
+.gstack/
