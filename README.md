@@ -13,3 +13,21 @@
 - Google Places API New（即時餐廳資料）
 - Google Gemini 2.5 Flash Lite（AI 推薦語）
 - shared_preferences（黑名單持久化）
+
+---
+
+## English
+
+A cure for decision paralysis at lunchtime — a Flutter restaurant-radar app that combines live Google Places data with a sharp-tongued Gemini recommender to pick where you eat.
+
+### Features
+- **Random slot machine**: a slot-machine animation picks a nearby restaurant; reject it 3 times and the AI flips to "tough love" mode and tells you to just go eat
+- **List view**: nearby restaurants with distance, rating, review count, price tier + one-tap Google Maps navigation
+- **Smart filters**: auto-filtered by meal slot (breakfast / lunch / afternoon tea / dinner / late night); plus budget, rating, and distance filters
+- **Permanent blacklist**: blacklist a bad restaurant and it never appears again, even after restart
+
+### Tech stack
+- Flutter (iOS first)
+- Google Places API New (live restaurant data)
+- Google Gemini 2.5 Flash Lite (AI recommendations)
+- shared_preferences (blacklist persistence)
