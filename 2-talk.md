@@ -1,4 +1,4 @@
-AIzaSyDdLJpYqoXA1GtUEdgRCiFVH56QD1VoL34
+<已移除：Gemini API key 不放進 repo>
 
 
 

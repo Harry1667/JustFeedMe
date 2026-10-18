@@ -5,7 +5,7 @@ import 'package:forkit_mobile/services/settings_service.dart';
 
 class AiService {
   // TODO: Replace with actual key or use --dart-define
-  static const String _apiKey = 'AIzaSyDdLJpYqoXA1GtUEdgRCiFVH56QD1VoL34';
+  static const String _apiKey = String.fromEnvironment('GEMINI_API_KEY'); // 建置時用 --dart-define=GEMINI_API_KEY=... 帶入
 
   static Future<String> generateCommentary(Place place, AiTone tone) async {
     print('🤖 AiService: Generating commentary for ${place.name} (Tone: $tone)');
